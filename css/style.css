@@ -144,15 +144,12 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-    font-family: "Michroma";
 }
 .header-text h1 span{
     color: var(--headerTextColor);
-    font-family: "Michroma";
 }
 .auto-type{
     color: var(--headerTextColor);
-    font-family: "Michroma";
 }
 
 
