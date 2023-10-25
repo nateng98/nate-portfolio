@@ -153,7 +153,7 @@ nav ul li a:hover::after{
 /* ----------------About me---------------- */
 #about-me{
     padding: 60px 0 0 0;
-    /* height: 52vh; */
+    /* min-height: 52vh; */
     color: var(--aboutmeTextColor);
 }
 
