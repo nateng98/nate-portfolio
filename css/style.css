@@ -2,54 +2,54 @@
     /*Main*/
     --bgColor: #2f3251;
     --webTextColor: #f4f1de;
-    --nuocMamColor: #ff6b35;
+    --nuocMamColor: #F97E52;
 
     /*Navigation bar*/
     --navbarColor: #2f3251;
     --navbarLowOpaColor: rgba(47, 50, 81, 0.5);
     --linkNavbarColor: #f4f1de;
-    --underlineLinkNavColor: #ff6b35;
+    --underlineLinkNavColor: #F97E52;
 
-    --menuNavColor: #ff6b35;
+    --menuNavColor: #F97E52;
 
     /*Header text*/
-    --headerTextColor: #ff6b35;
+    --headerTextColor: #F97E52;
 
     /*Subtitle*/
-    --subTitleColor: #ff6b35;
+    --subTitleColor: #F97E52;
 
     /*About me*/
     --aboutmeTextColor: #f4f1de;
-    --underlineAboutmeTab: #ff6b35;
-    --titleInTabColor: #ff6b35;
+    --underlineAboutmeTab: #F97E52;
+    --titleInTabColor: #F97E52;
 
     /*Tools*/
     --toolsBgColor: #81b29a;
-    --toolsHoverColor: #ff6b35;
+    --toolsHoverColor: #F97E52;
     --toolsTextColor: #f4f1de;
     --toolsTextHoverColor: #f4f1de;
 
     /*Projects*/
     --projectStatusColor: #2f3251;
     --projectDescriptBgColor: #81b29a;
-    --projectToolUsedColder: #ff6b35;
+    --projectToolUsedColder: #F97E52;
     --linkCircleColor: #f4f1de;
 
     /*Contact*/
-    --contactIconColor: #ff6b35;
+    --contactIconColor: #F97E52;
     --socialMediaColor: #f4f1de;
-    --socialMediaHoverColor: #ff6b35;
+    --socialMediaHoverColor: #F97E52;
 
     --inputBoxColor: #81b29a;
     --inputTextColor: #f4f1de;
     --placeHolderInputColor: #f4f1de;
 
     /*Button*/
-    --buttonColor: #ff6b35;
+    --buttonColor: #F97E52;
     --buttonTextColor: #f4f1de;
 
     /*Copy right - Footer*/
-    --footerColor: #ff6b35;
+    --footerColor: #F97E52;
 }
 
 *{
@@ -150,11 +150,12 @@ nav ul li a:hover::after{
     color: var(--headerTextColor);
 }
 
-
 /* ----------------About me---------------- */
 #about-me{
-    padding: 60px 0;
+    padding: 60px 0 0 0;
+    height: 52vh;
     color: var(--aboutmeTextColor);
+    scroll-snap-type: start;
 }
 
 .row{
@@ -167,13 +168,12 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
+    padding: 20px 0 0 0;
     width: 100%;
     height: auto;
     aspect-ratio: attr(width) / attr(height);
     display: block;
     margin: auto;
-    border-radius: 5px;
-    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
 }
 .about-col-2{
     /* Column 2 takes up 60% of the row, leaving 5% space in between 2 columns */
@@ -243,7 +243,8 @@ nav ul li a:hover::after{
 
 /* ----------------Tools---------------- */
 #tools{
-    padding: 50px 0;
+    padding: 60px 0 0 0;
+    height: 45vh;
 }
 .tool-list{
     display: grid;
@@ -291,9 +292,14 @@ nav ul li a:hover::after{
 .tool-list .tool:hover .tool-description{
     opacity: 1;
 }
+
+.tool-list .tool img{
+    padding: 3px;
+}
+
 /* ----------------Projects---------------- */
 #projects{
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .project-left{
     flex-basis: 49%;
@@ -398,12 +404,12 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff6b35;
+    background: #F97E52;
 }
 
 /* ----------------Contact---------------- */
 #contact{
-    padding: 50px 0 0 0;
+    padding: 80px 0 0 0;
 }
 .contact-left{
     flex-basis: 35%;
@@ -436,7 +442,7 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff6b35;
+    background: #F97E52;
 }
 .contact-right form{
     width: 100%;

@@ -29,7 +29,7 @@ function closeMenu(){
 // Auto typing effect
 window.onload = function() { // let the script load on opening the website
     let typed = new Typed(".auto-type", {
-        strings: ["UX/UI Designer", "Front End Developer"],
+        strings: ["Web Designer", "Front End Developer", "Software Developer"],
         typeSpeed: 90,
         backSpeed: 40,
         loop: true
@@ -37,16 +37,17 @@ window.onload = function() { // let the script load on opening the website
 
     // Animation on Scroll
     AOS.init({
-        offset: 280, // offset (in px) from the original trigger point
+        offset: 120, // offset (in px) from the original trigger point
         delay: 40, // values from 0 to 3000, with step 50ms
         duration: 800 // values from 0 to 3000, with step 50ms
     });
 }
 
 // contact form to google sheet
+// https://github.com/levinunnink/html-form-to-google-sheet
 const msg = document.getElementById("msg");
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyvp2tADIQOrn65eEqISxvhmv1TGOqjJiROov4p-6BW3obhg1yxZugg2a3n_Jn0QRy9/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxyPefAjHPkiJc2OXUBDeYCnnyC_mYv8LjRZkN570VezP5MH9kbV0nf_FkUfwXtdtQJ/exec'
 const form = document.forms['submit-to-google-sheet']
 
 form.addEventListener('submit', e => {
