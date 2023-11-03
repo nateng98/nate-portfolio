@@ -1,7 +1,9 @@
-## Personal Portfolio
+# Personal Portfolio
+
 This is a simple and lightweight website using vanilla JavaScript
 
 ## Acknowledgements
-<li><a href="https://github.com/michalsnik/aos">AOS - Animate on scroll library</a></li>
-<li><a href="https://github.com/tsanak/autotyping">autotyping</a></i></li>
-<li><a href="https://fontawesome.com/">Font Awesome</a></li>
+
+[AOS - Animate on scroll library](https://github.com/michalsnik/aos)
+[Type.js](https://github.com/mattboldt/typed.js)
+[Font Awesome](https://fontawesome.com/)
