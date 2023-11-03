@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default",
+      {
+        // Ignore any elements other than list in ul
+        "list": "off"
+      }
+    ]
+  }
+}
