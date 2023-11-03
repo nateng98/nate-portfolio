@@ -2,242 +2,265 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nước Mắm Code</title>
-    <meta name="description" content="Nathan's Portfolio">
-    <meta name="keywords" content="">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nước Mắm Code</title>
+	<meta name="description" content="Nathan's Portfolio">
+	<meta name="keywords" content="">
 
-    <link rel="icon" href="img/weblogo.png" type="image/png">
+	<link rel="icon" href="img/weblogo.png" type="image/png">
 
-    <!-- Animation on Scroll - AoS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <!-- Fonts -->
-    <link rel="preload" href="css/LexendDecaRegular.woff" as="font" crossorigin>
-    <style>
-        @font-face {
-            font-family: 'Lexend Deca Regular';
-            src: url('css/LexendDecaRegular.woff');
-        }
-    </style>
+	<!-- Animation on Scroll - AoS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+	<!-- Fonts -->
+	<link rel="preload" href="css/LexendDecaRegular.woff" as="font" crossorigin>
+	<style>
+		@font-face {
+			font-family: 'Lexend Deca Regular';
+			src: url('css/LexendDecaRegular.woff');
+		}
+	</style>
 
-    <!-- Browser Mockup -->
-    <link rel="stylesheet" href="css/browser-mockup.css">
+	<!-- Browser Mockup -->
+	<link rel="stylesheet" href="css/browser-mockup.css">
 
-    <!-- Diagonal slide style -->
-    <link rel="stylesheet" href="css/diagonal.css">
+	<!-- Diagonal slide style -->
+	<link rel="stylesheet" href="css/diagonal.css">
 
-    <!-- Template Main CSS File -->
-    <link rel="stylesheet" href="css/style.css">
+	<!-- Template Main CSS File -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="hero" id="header">
-        <div class="container navbar" id="navbar">
-            <!-- <img alt="Nuoc Mam Code" src="img/logo.png" class="logo"> -->
-            <h2><span class="nuoc-mam">NƯỚC MẮM</span> CODE</h2>
-            <nav>
-                <ul id="side-menu">
-                    <li><a href="#top">Home</a></li>
-                    <li><a href="#about-me">About me</a></li>
-                    <!-- <li><a href="#tools">Tools</a></li> -->
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-regular fa-xmark" onclick="closeMenu()"></i>
-                </ul>
-                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
-            </nav>
-        </div>
-        <div class="header-text" data-aos="fade">
-            <h1>Hi, I'm <span>Nathan</span> Nguyen</h1>
-            <p><span class="auto-type"></span></p>
-        </div>
-               
-        <!-- Diagonals Bg -->
-        <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
-    </div>
-    <!-- ----------------About me---------------- -->
-    <div id="about-me">
-        <div class="container">
-            <!-- This is where we divide .row into 2 separated .col -->
-            <div class="row">
-                <div class="about-col-1" data-aos="fade-right">
-                    <img src="img/profile.png" alt="">
-                </div>
-                <div class="about-col-2" data-aos="fade-left">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>My name is Nathan. 
-                        Eager and driven, I am a 3rd-year computer science student 
-                        with a solid foundation in web development seeking an internship 
-                        or entry-level position. My passion for creating intuitive user 
-                        experiences, coupled with a strong analytical mindset, positions 
-                        me as a valuable asset to any team. I am excited to embark on a 
-                        new opportunity that allows me to apply and expand my skills in a 
-                        professional setting.</p>
+	<div class="hero" id="header">
+		<div class="container navbar" id="navbar">
+			<!-- <img alt="Nuoc Mam Code" src="img/logo.png" class="logo"> -->
+			<h2><span class="nuoc-mam">NƯỚC MẮM</span> CODE</h2>
+			<nav>
+				<ul id="side-menu">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#about-me">About me</a></li>
+					<!-- <li><a href="#tools">Tools</a></li> -->
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-regular fa-xmark" onclick="closeMenu()"></i>
+				</ul>
+				<i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+			</nav>
+		</div>
+		<div class="header-text" data-aos="fade">
+			<h1>Hi, I'm <span>Nathan</span> Nguyen</h1>
+			<p><span class="auto-type"></span></p>
+		</div>
 
-                    <div class="tab-titles">
-                        <!-- argument should correspond with id name -->
-                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
-                        <p class="tab-links" onclick="openTab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Programming language</span><br>
-                                Java, C, C++, Python, HTML, CSS, JavaScript, SQL
-                            </li>
-                            <li><span>Tools</span><br>
-                                Github, VSCode, Figma, Photoshop, Illustrator
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Grade 11-12 Math Tutor - <i>Tutorbright</i></span><br>Teaching pre-calculus and 40S, and helping preparing for provincial math exam</li>
-                            <li><span>Math & Programming Tutor - <i>Paper</i></span><br>Teaching 1-12 and pre-university students math and programming across North America</li>
-                            <li><span>Computer Science/Math Grader - <i>University of Manitoba/University of Winnipeg</i></span><br>Grading and evaluating student quizzes and assignments</li>
-                            <li><span>Graphic Designer - <i>Freelance</i></span><br>Using Procreate and Adobe Photoshop/Illustrator to design logo, banner and posters based on client's request</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2019 - Present<br><i>University Of Manitoba - Canada</i></span><br>Bachelor's Degree in Computer Science
-                                <ul id="bullet-list">
-                                    <li>⚬ Specializing in Human and Computer Interaction</li>
-                                    <li>⚬ Specializing in Software Engineering</li>
-                                </ul>
-                            </li>
-                            <li><span>2018 - 2019<br><i>International College of Manitoba - Canada</i></span><br>General Science</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ----------------Projects---------------- -->
-    <div id="projects">
-        <div class="container">
-            <h1 class="sub-title" data-aos="fade-right">Some of My Works</h1>
-            <!-- Project-1 -->
-            <div class="project-row">
-                <div class="browser-mockup project-left" data-aos="fade-right">
-                    <div class="project-col">
-                        <img src="img/404.jpg" alt="">
-                    </div>
-                </div>
-                <div class="project-col project-right" data-aos="fade-left">
-                    <h3>Files Organizer</h3>
-                    <p>
-                        A python script that automatically sorts files into different folders. .exe or
-                        .bat will be updated soon.
-                        <br><br><span class="project-status">Python</span>
-                    </p>
-                    <div class="source-icon">
-                        <a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
-                        <a href="https://github.com/nateng98/Files-Organizer" target="_blank" rel="noopener" title="Source code"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
+		<!-- Diagonals Bg -->
+		<div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+	</div>
+	<!-- ----------------About me---------------- -->
+	<div id="about-me">
+		<div class="container">
+			<!-- This is where we divide .row into 2 separated .col -->
+			<div class="row">
+				<div class="about-col-1" data-aos="fade-right">
+					<img src="img/profile.png" alt="">
+				</div>
+				<div class="about-col-2" data-aos="fade-left">
+					<h1 class="sub-title">About Me</h1>
+					<p>My name is Nathan.
+						Eager and driven, I am a 3rd-year computer science student
+						with a solid foundation in web development seeking an internship
+						or entry-level position. My passion for creating intuitive user
+						experiences, coupled with a strong analytical mindset, positions
+						me as a valuable asset to any team. I am excited to embark on a
+						new opportunity that allows me to apply and expand my skills in a
+						professional setting.</p>
 
-            <!-- Project-2 -->
-            <div class="project-row">
-                <div class="browser-mockup project-right" data-aos="fade-left">
-                    <div class="project-col">
-                        <img src="img/Web capture_CV-generator.jpeg" alt="">
-                    </div>
-                </div>
-                <div class="project-col project-left" data-aos="fade-right">
-                    <h3>CV Generator</h3>
-                    <p>
-                        This web effortlessly generates professional resumes that showcase your achievements, 
-                        skills, and experiences in a visually appealing layout, allowing users to focus on content 
-                        without worrying about the hassle of formatting.
-                        <br><br><span class="project-status">HTML, CSS, JavaScript and JQuery</span>
-                    </p>
-                    <div class="source-icon">
-                        <a href="https://nateng98.github.io/CV-Generator/" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
-                        <a href="https://github.com/nateng98/CV-Generator" target="_blank" rel="noopener" title="Source code"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
+					<div class="tab-titles">
+						<!-- argument should correspond with id name -->
+						<p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+						<p class="tab-links" onclick="openTab('experience')">Experience</p>
+						<p class="tab-links" onclick="openTab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Programming language</span><br>
+								Java, C, C++, Python, HTML, CSS, JavaScript, SQL
+							</li>
+							<li><span>Tools</span><br>
+								Github, VSCode, Figma, Photoshop, Illustrator
+							</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>Grade 11-12 Math Tutor - <i>Tutorbright</i></span>
+								<br>Teaching pre-calculus and 40S, and helping preparing for provincial math exam
+							</li>
+							<li><span>Math & Programming Tutor - <i>Paper</i></span>
+								<br>Teaching 1-12 and pre-university students math and programming across North America
+							</li>
+							<li><span>Computer Science/Math Grader - <i>University of Manitoba/University of Winnipeg</i></span>
+								<br>Grading and evaluating student quizzes and assignments
+							</li>
+							<li><span>Graphic Designer - <i>Freelance</i></span>
+								<br>Using Procreate and Adobe Photoshop/Illustrator to design logo, banner and posters based on client's
+								request
+							</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2019 - Present<br><i>University Of Manitoba - Canada</i></span>
+								<br>Bachelor's Degree in Computer Science
+								<ul id="bullet-list">
+									<li>⚬ Specializing in Human and Computer Interaction</li>
+									<li>⚬ Specializing in Software Engineering</li>
+								</ul>
+							</li>
+							<li><span>2018 - 2019<br><i>International College of Manitoba - Canada</i></span>
+								<br>General Science
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------Projects---------------- -->
+	<div id="projects">
+		<div class="container">
+			<h1 class="sub-title" data-aos="fade-right">Some of My Works</h1>
+			<!-- Project-1 -->
+			<div class="project-row">
+				<div class="browser-mockup project-left" data-aos="fade-right">
+					<div class="project-col">
+						<img src="img/404.jpg" alt="">
+					</div>
+				</div>
+				<div class="project-col project-right" data-aos="fade-left">
+					<h3>Files Organizer</h3>
+					<p>
+						A python script that automatically sorts files into different folders. .exe or
+						.bat will be updated soon.
+						<br><br><span class="project-status">Python</span>
+					</p>
+					<div class="source-icon">
+						<a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
+						<a href="https://github.com/nateng98/Files-Organizer" target="_blank" rel="noopener" title="Source code"><i
+								class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
 
-            <!-- Project-3 -->
-            <div class="project-row">
-                <div class="browser-mockup project-left" data-aos="fade-right">
-                    <div class="project-col">
-                        <img src="img/404.jpg" alt="">
-                    </div>
-                </div>
-                <div class="project-col project-right" data-aos="fade-left">
-                    <h3>Easy Github Profile</h3>
-                    <p>
-                        Website is built upon HTML, CSS, JS and React
-                        <br><br><span class="project-status">This site is currently under development</span>
-                    </p>
-                    <div class="source-icon">
-                        <a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
-                        <a href="https://github.com/nateng98/Easy-Github-Profile" target="_blank" rel="noopener" title="Source code"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ----------------Contact---------------- -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left" data-aos="fade-right">
-                    <h2 class="sub-title contact-text">Let's Talk!</h2>
-                    <p><i class="fa-solid fa-envelope"></i> nathan.ng.0808@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> (+1) 204 588 2047</p>
-                    <div class="social-icons">
-                        <a title="linkedin" href="https://www.linkedin.com/in/nathan-nguyen-2176301ab/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
-                        <a title="github" href="https://github.com/nateng98" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-                        <a title="tiktok" href="https://www.tiktok.com/@nuocmam.code"><i class="fa-brands fa-tiktok" target="_blank" rel="noopener"></i></a>
-                        <a title="facebook" href="https://www.facebook.com/na.nguyen.1607" target="_blank" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
-                        <a title="instagram" href="https://www.instagram.com/nathan_ng98" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <a href="asset/NateNMCResume.pdf" target="_blank" class="btn btn2">Get My Resume</a>
-                </div>
-                <div class="contact-right" data-aos="fade-left">
-                    <form name="submit-to-google-sheet">
-                        <div class="input-field">
-                            <input type="text" id="name" name="Name" spellcheck="false" required>
-                            <label for="name">Your name</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="email text" id="email" name="Email" spellcheck="false" required>
-                            <label for="email">Your email</label>
-                        </div>
-                        <div class="input-field">
-                            <textarea name="Message" id="message" rows="6" spellcheck="false" required></textarea>
-                            <label for="message">Your message</label>
-                        </div>
+			<!-- Project-2 -->
+			<div class="project-row">
+				<div class="browser-mockup project-right" data-aos="fade-left">
+					<div class="project-col">
+						<img src="img/Web capture_CV-generator.jpeg" alt="">
+					</div>
+				</div>
+				<div class="project-col project-left" data-aos="fade-right">
+					<h3>CV Generator</h3>
+					<p>
+						This web effortlessly generates professional resumes that showcase your achievements,
+						skills, and experiences in a visually appealing layout, allowing users to focus on content
+						without worrying about the hassle of formatting.
+						<br><br><span class="project-status">HTML, CSS, JavaScript and JQuery</span>
+					</p>
+					<div class="source-icon">
+						<a href="https://nateng98.github.io/CV-Generator/" target="_blank" rel="noopener" title="Demo"><i
+								class="fa-solid fa-computer"></i></a>
+						<a href="https://github.com/nateng98/CV-Generator" target="_blank" rel="noopener" title="Source code"><i
+								class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
 
-                        <button id="submit" type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <div class="msg-box">
-                        <span id="msg" role="alert"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ----------------Footer---------------- -->
-    <footer>
-        <div class="round"><a title="top" href="#top"><i class="fa-solid fa-arrow-up"></a></i></div>
-        <div class="copyright">
-            <p>© 2023 Nathan Nguyen</p>
-        </div>
-    </footer>
+			<!-- Project-3 -->
+			<div class="project-row">
+				<div class="browser-mockup project-left" data-aos="fade-right">
+					<div class="project-col">
+						<img src="img/404.jpg" alt="">
+					</div>
+				</div>
+				<div class="project-col project-right" data-aos="fade-left">
+					<h3>Winnipeg Bus Lookup</h3>
+					<p>
+						This project establishes a comprehensive database
+						for accessing Winnipeg bus schedules and weather information in the past, offering
+						valuable insights into the impact of weather on public transportation efficiency in Winnipeg.
+						<br><br><span class="project-status">HTML, CSS, Python, Flask and SQL</span>
+					</p>
+					<div class="source-icon">
+						<a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
+						<a href="https://github.com/nateng98/Winnipeg-Bus-Lookup" target="_blank" rel="noopener"
+							title="Source code"><i class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------Contact---------------- -->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left" data-aos="fade-right">
+					<h2 class="sub-title contact-text">Let's Talk!</h2>
+					<p><i class="fa-solid fa-envelope"></i> nathan.ng.0808@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i> (+1) 204 588 2047</p>
+					<div class="social-icons">
+						<a title="linkedin" href="https://www.linkedin.com/in/nathan-nguyen-2176301ab/" target="_blank"
+							rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+						<a title="github" href="https://github.com/nateng98" target="_blank" rel="noopener"><i
+								class="fa-brands fa-github"></i></a>
+						<a title="tiktok" href="https://www.tiktok.com/@nuocmam.code"><i class="fa-brands fa-tiktok" target="_blank"
+								rel="noopener"></i></a>
+						<a title="facebook" href="https://www.facebook.com/na.nguyen.1607" target="_blank" rel="noopener"><i
+								class="fa-brands fa-square-facebook"></i></a>
+						<a title="instagram" href="https://www.instagram.com/nathan_ng98" target="_blank" rel="noopener"><i
+								class="fa-brands fa-instagram"></i></a>
+					</div>
+					<a href="asset/NateNMCResume.pdf" target="_blank" class="btn btn2">Get My Resume</a>
+				</div>
+				<div class="contact-right" data-aos="fade-left">
+					<form name="submit-to-google-sheet">
+						<div class="input-field">
+							<input type="text" id="name" name="Name" spellcheck="false" required>
+							<label for="name">Your name</label>
+						</div>
+						<div class="input-field">
+							<input type="email text" id="email" name="Email" spellcheck="false" required>
+							<label for="email">Your email</label>
+						</div>
+						<div class="input-field">
+							<textarea name="Message" id="message" rows="6" spellcheck="false" required></textarea>
+							<label for="message">Your message</label>
+						</div>
 
-    <script src="js/script.js"></script>
-    <script src="https://kit.fontawesome.com/dede20123b.js" crossorigin="anonymous"></script>
-    <script src="vender/typed.js/typed.min.js"></script>
-    <!-- Animation on scroll - AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+						<button id="submit" type="submit" class="btn btn2">Submit</button>
+					</form>
+					<div class="msg-box">
+						<span id="msg" role="alert"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ----------------Footer---------------- -->
+	<footer>
+		<div class="round"><a title="top" href="#top"><i class="fa-solid fa-arrow-up"></a></i></div>
+		<div class="copyright">
+			<p>© 2023 Nathan Nguyen</p>
+		</div>
+	</footer>
+
+	<script src="js/script.js"></script>
+	<script src="https://kit.fontawesome.com/dede20123b.js" crossorigin="anonymous"></script>
+	<script src="vender/typed.js/typed.min.js"></script>
+	<!-- Animation on scroll - AOS -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 
 </html>
