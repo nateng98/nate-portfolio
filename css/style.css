@@ -484,11 +484,12 @@ nav .fas{
         background-image: url("/img/phone-background.png");
     } */
     .header-text{
-        margin: 70% 0 0 5%;
-        font-size: 25px;
+        margin: 20% 8% 0 8%;
+        text-align: center;
+        font-size: 20px;
     }
     .header-text h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     .header-text h1 span{
         font-size: 70px;

@@ -29,7 +29,7 @@ function closeMenu(){
 // Auto typing effect
 window.onload = function() { // let the script load on opening the website
     let typed = new Typed(".auto-type", {
-        strings: ["Web Designer", "Front End Developer"],
+        strings: ["Product Designer", "Front End Developer", "Software Engineer"],
         typeSpeed: 90,
         backSpeed: 40,
         loop: true
