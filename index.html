@@ -13,13 +13,9 @@
 	<!-- Animation on Scroll - AoS -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	<!-- Fonts -->
-	<link rel="preload" href="css/LexendDecaRegular.woff" as="font" crossorigin>
-	<style>
-		@font-face {
-			font-family: 'Lexend Deca Regular';
-			src: url('css/LexendDecaRegular.woff') format('woff');
-		}
-	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
 
 	<!-- Browser Mockup -->
 	<link rel="stylesheet" href="css/browser-mockup.css">
@@ -131,6 +127,7 @@
 	<div id="projects">
 		<div class="container">
 			<h1 class="sub-title" data-aos="fade-right">Some of My Works</h1>
+
 			<!-- Project-1 -->
 			<div class="project-row">
 				<div class="browser-mockup project-left" data-aos="fade-right">
@@ -139,14 +136,17 @@
 					</div>
 				</div>
 				<div class="project-col project-right" data-aos="fade-left">
-					<h3>PyroScript</h3>
+					<h3>PantryPro</h3>
 					<p>
-						A blog-liked page for sharing fun and useful Python script
-						<br><br><span class="project-status">MERN Stack</span>
+						Pantry Pro is an ultimate culinary companion, designed to effortlessly create, 
+						save and share recipes. Pantry Pro can also seamlessly track calories of these 
+						recipes as well as use them to plan meals for your upcoming days. Cooking has 
+						never been this smart, easy, and downright delicious!
+						<br><br><span class="project-status">Android Studio (Java)</span>
 					</p>
 					<div class="source-icon">
-						<a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
-						<a href="https://github.com/nateng98/Files-Organizer" target="_blank" rel="noopener" title="Source code"><i
+						<a href="https://www.youtube.com/watch?v=fMW_bwte2A0" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
+						<a href="" target="_blank" rel="noopener" title="Source code"><i
 								class="fa-brands fa-github"></i></a>
 					</div>
 				</div>
@@ -199,6 +199,55 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Hidden project -->
+		<div class="container content">
+			<!-- Project 4 -->
+			<div class="project-row">
+				<div class="browser-mockup project-left" data-aos="fade-left">
+					<div class="project-col">
+						<img src="img/404.jpg" alt="">
+					</div>
+				</div>
+				<div class="project-col project-right" data-aos="fade-right">
+					<h3>PyroScript</h3>
+					<p>
+						A blog-liked page for sharing fun and useful Python script
+						<br><br><span class="project-status">MERN Stack</span>
+					</p>
+					<div class="source-icon">
+						<a href="" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
+						<a href="https://github.com/nateng98/Files-Organizer" target="_blank" rel="noopener" title="Source code"><i
+								class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Project 5 -->
+			<div class="project-row">
+				<div class="browser-mockup project-left" data-aos="fade-right">
+					<div class="project-col">
+						<img src="img/winnipegbuslookup.jpeg" alt="">
+					</div>
+				</div>
+				<div class="project-col project-right" data-aos="fade-left">
+					<h3>Winnipeg Bus Lookup</h3>
+					<p>
+						This project establishes a comprehensive database
+						for accessing Winnipeg bus schedules and weather information in the past, offering
+						valuable insights into the impact of weather on public transportation efficiency in Winnipeg.
+						<br><br><span class="project-status">HTML, CSS, Python, Flask and SQL</span>
+					</p>
+					<div class="source-icon">
+						<a href="https://www.youtube.com/watch?v=MitG2gKu_SI" target="_blank" rel="noopener" title="Demo"><i class="fa-solid fa-computer"></i></a>
+						<a href="https://github.com/nateng98/Winnipeg-Bus-Lookup" target="_blank" rel="noopener"
+							title="Source code"><i class="fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<button id="show-button" type="button" class="btn collapsible">Show More</button>
 	</div>
 	<!-- ----------------Contact---------------- -->
 	<div id="contact">
@@ -213,9 +262,9 @@
 							rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
 						<a title="github" href="https://github.com/nateng98" target="_blank" rel="noopener"><i
 								class="fa-brands fa-github"></i></a>
-						<a title="tiktok" href="https://www.tiktok.com/@nuocmam.code"><i class="fa-brands fa-tiktok" target="_blank"
-								rel="noopener"></i></a>
-<!-- 						<a title="facebook" href="https://www.facebook.com/na.nguyen.1607" target="_blank" rel="noopener"><i
+						<!-- <a title="tiktok" href="https://www.tiktok.com/@nuocmam.code"><i class="fa-brands fa-tiktok" target="_blank"
+								rel="noopener"></i></a> -->
+						<!-- <a title="facebook" href="https://www.facebook.com/na.nguyen.1607" target="_blank" rel="noopener"><i
 								class="fa-brands fa-square-facebook"></i></a> -->
 						<a title="instagram" href="https://www.instagram.com/nathaniel_ng98" target="_blank" rel="noopener"><i
 								class="fa-brands fa-instagram"></i></a>
@@ -250,7 +299,7 @@
 	<footer>
 		<div class="round"><a title="top" href="#top"><i class="fa-solid fa-arrow-up"></a></i></div>
 		<div class="copyright">
-			<p>© 2023 Nathan Nguyen</p>
+			<p>© 2024 Nathan Nguyen</p>
 		</div>
 	</footer>
 
