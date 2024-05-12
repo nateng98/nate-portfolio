@@ -353,7 +353,7 @@ nav ul li a:hover::after{
     border-radius: 4px;
     text-decoration: none;
     font-size: 15px;
-    background-color: transparent;
+    background-color: var(--buttonColor);
     color: var(--buttonTextColor);
     transition: background 0.5s;
 }
@@ -362,7 +362,7 @@ nav ul li a:hover::after{
 }
 .collapsible {
     cursor: pointer;
-    background-color: transparent;
+    background-color: var(--buttonColor);
   }
 
 /* ----------------Contact---------------- */
@@ -483,6 +483,7 @@ form .btn2{
     text-decoration: none;
     color: var(--webTextColor);
 }
+
 /* ----------------CSS for mobile screen---------------- */
 nav .fas{
     display: none;
@@ -549,6 +550,9 @@ nav .fas{
         float: right;
     }
 
+    .btn.btn2{
+        display: block;
+    }
 
     /* Meant for below 1000px */
     nav .fas{
